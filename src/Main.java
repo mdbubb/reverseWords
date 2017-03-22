@@ -12,7 +12,6 @@ public class Main {
         System.out.print("Your word(s) reversed is: ");
         for (int i = word.length(); i > 0; i--) {
             w = word.substring(i - 1, i);
-
             System.out.print(w);
         }
 
